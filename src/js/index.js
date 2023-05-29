@@ -5,7 +5,7 @@ const resetButton = document.getElementById("reset");
 
 const updateValue = () => {
     value.innerHTML = count;
-}
+};
 
 let count = 0;
 let intervalId = 0;
